@@ -1,0 +1,97 @@
+body {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.myClass{
+  background-color: #F2F4F4;
+}
+
+#info {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 80vh;
+  width: 50vw;
+}
+
+
+#info-title {
+  align-items: center;
+  background-color: #3DC8CB;
+  color: #FFFFFF;
+  display: flex;
+  height: 9vh;
+  padding-left: 1em;
+}
+
+#info-container {
+  box-sizing: border-box;
+  padding: 2em;
+}
+
+#btn {
+  background-color: #F36062;
+  border: none;
+  border-radius: 0.3em;
+  color: white;
+  display: block;
+  height: 6vh;
+  margin-top: 3vh;
+  width: 100%;
+}
+
+.doble {
+  display: inline-block;
+  clear: both;
+  width: 46%;
+}
+
+.sucess {
+  color: black;
+  border-bottom: 2px solid #BDDD6E;
+}
+
+.error {
+  border-bottom: 2px solid red;
+}
+
+h3 {
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #B0B0B0;
+  font-size: 0.7em;
+  margin-bottom: 2vh;
+  height: 4vh;
+  width: 80%;
+}
+
+.required_notification {
+  font-size: 0.7em;
+  color: #d45252;
+  margin: 5px 0 0 0;
+  justify-content: center;
+}
+
+textarea {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding-right: 10px;
+}
+
+
+label {
+  color: #787878;
+  display: block;
+  font-size: 0.8em;
+}
+
+span{
+  font-size: 11px;
+  display: inline;
+}
