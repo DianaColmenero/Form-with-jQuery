@@ -24,22 +24,22 @@
         <div class="form-group">
           <div class="doble">
             <label for="age">Age</label>
-            <input id="age" name="age" maxlength="25" placeholder="18" required/>
+            <input id="age" name="age" type="number" maxlength="2" pattern="[0-9]{10}"  placeholder="18" required/>
             <span id="id2"></span>
           </div>
         </div>
         <div class="form-group">
           <label for="cn">Phone</label>
-          <input id="phone" name="phone" pattern="[0-9]{10}" maxlength="10" placeholder="10 digitos" required/>
+          <input id="phone" name="phone" type="number" pattern="[0-9]{10}" maxlength="10" placeholder="10 digitos" required/>
           <span id="id3"></span>
         </div>
         <div class="form-group">
-          <label for="mail">Email</label>
-          <input id="mail" name="mail" type="email" maxlength="20" placeholder="info@somethig.com" required/>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="info@somethig.com" required/>
           <span id="id4"></span>
         </div>
         <div class="txt-area">
-          <textarea name="txt" rows="7" cols="33" placeholder="About yourself" required></textarea>
+          <textarea id="txt" name="txt" rows="7" cols="33" minlength="10" maxlength="20" placeholder="About yourself" required></textarea>
           <span id="id5"></span>
         </div>
         <input id="btn" type="submit" value="Send"/>
